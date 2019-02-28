@@ -56,12 +56,12 @@
                 <img class="minibanner" src="imagens/assessoriajuridica.jpg" style="width: 100%; max-width: 100%;">
             </div>
             <div class="col text-center" >
-                <img class="minibanner" src="imagens/assessoriajuridica.jpg" style="width:100%; max-width: 100%;">
+                <img class="minibanner" src="imagens/atasreuniao.jpg" style="width:100%; max-width: 100%;">
             </div>
         </div>  
         <div class="row" style="padding: 0px;">
             <div class="col text-center" >
-                <img class="minibanner" src="imagens/assessoriajuridica.jpg" style="width: 100%; max-width: 100%;">
+                <img class="minibanner" src="imagens/prestacao.jpg" style="width: 100%; max-width: 100%;">
             </div>
             <div class="col text-center" >
                 <img class="minibanner" src="imagens/assessoriajuridica.jpg" style="width:100%; max-width: 100%;">
