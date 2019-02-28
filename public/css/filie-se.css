@@ -1,0 +1,203 @@
+.intro-pagina{
+	width: 100%;
+	height: 200px;
+	background-image: url(../imagens/estudos3.jpg);
+	background-size: 100%;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	box-shadow: 0px 0px 2px #313131;
+}
+
+.intro-pagina h1{
+	font-family: calibri;
+	font-size: 28px;
+	font-weight: normal;
+	color: #FFF;
+	text-align: center;
+	margin-top: 70px;
+
+}
+
+
+.conteudo{
+	width: 100%;
+	float: left;
+}
+
+.conteudo h1{
+	font-size: 18px;
+	color: #313131;
+}
+
+.conteudo p{
+	font-size: 12px;
+	text-align: left;
+}
+
+
+
+.form-filiar{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.form-filiar h1{
+	float: left;
+	clear: both;
+}
+
+.form-filiar p{
+	float: left;
+	clear: both;
+}
+
+.form-filiar p2{
+	font-size: 12px;
+	font-weight: bold;
+	color: #B02C2B;
+}
+
+
+
+.form-filiar input[type=text]{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar input[type=text]::placeholder{
+	color: #FFF;
+}
+
+.form-filiar input[type=text]:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+.form-filiar input[type=email]{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar input[type=email]::placeholder{
+	color: #FFF;
+}
+
+.form-filiar input[type=email]:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+
+.form-filiar input[type=date]{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar input[type=date]::placeholder{
+	color: #FFF;
+}
+
+.form-filiar input[type=date]:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+
+
+.form-filiar input[type=number]{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar input[type=number]::placeholder{
+	color: #FFF;
+}
+
+.form-filiar input[type=number]:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+
+.form-filiar input[type=date]{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar input[type=date]::placeholder{
+	color: #FFF;
+}
+
+.form-filiar input[type=date]:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+
+.form-filiar select{
+	width: 450px;
+	height: 32px;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+}
+
+.form-filiar select::placeholder{
+	color: #FFF;
+}
+
+.form-filiar select:focus{
+	outline: none;
+	color: #FFF;
+}
+
+
+
+
+.bt-confirmar{
+	font-size: 14px;
+	color: #FFF;
+	background-color: #FF403F;
+	border: 0px;
+	float: left;
+	clear: both;
+	padding: 10px 30px;
+}

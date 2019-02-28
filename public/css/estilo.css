@@ -1,0 +1,125 @@
+/* RODAPÉ */
+.rodape{
+	width: 100%;
+	background-color: darkred;
+	border-top: 2px solid #FF403F;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.sobre{
+	width: 100%;
+	float: left;
+}
+
+.sobre h1{
+	font-size: 18px;
+	color: #FFF;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid #FF403F;
+	padding-bottom: 5px;
+}
+
+.sobre p{
+	font-size: 13px;
+	color: #FFF;
+}
+
+
+
+.redes-sociais h1{
+	font-size: 18px;
+	color: #FFF;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid #FF403F;
+	padding-bottom: 5px;
+}
+
+.redes-sociais ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.redes-sociais ul li{
+	display: inline-block;
+	list-style: none;
+}
+
+.redes-sociais img{
+	transition: all 300ms;
+	width: 25px;
+}
+
+.siganos div{
+	text-align: center;
+}
+.siganos img{
+	width: 30px;
+	margin: 5px;
+}
+.siganos .face:hover{
+	background-color: darkblue;
+	transition: 1s;
+}
+.siganos .insta:hover{
+	background-color: purple;
+	transition: 1s;
+}
+.siganos .youtube:hover{
+	background-color: red;
+	transition: 1s;
+}
+.siganos .whats:hover{
+	background-color: green;
+	transition: 1s;
+}
+
+
+
+.contato{
+	width: 100%;
+	float: left;
+}
+
+.contato h1{
+	font-size: 18px;
+	color: #FFF;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 1px solid #FF403F;
+	padding-bottom: 5px;
+}
+
+.contato ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.contato ul li{
+	font-size: 13px;
+	color: #FFF;
+	list-style: none;
+	float: left;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+.icones{
+	width: 20px;
+	height: 20px;
+	font-size: 10px;
+	float: left;
+	text-align: center;
+	padding-top: 3px;
+	margin-right: 10px;
+}
+
+
+/* DESENVOLVIMENTO */
+.desenvolvimento{
+	width: 100%;
+	height: auto;
+	background-color: #CC3332;
+	border-top: 1px solid #9E2827;
+	padding-top: 20px;
+	margin-top: 40px;
+}
