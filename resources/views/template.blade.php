@@ -89,8 +89,9 @@
                                 </a>
                                 <div class="dropdown-menu">
                                     <a class="nav-link" href="#">Quem somos</a>
-                                    <a class="nav-link" href="#">Link 2</a>
-                                    <a class="nav-link" href="#">Link 3</a>
+                                    <a class="nav-link" href="#">Diretoria</a>
+                                    <a class="nav-link" href="#">Regime Interno</a>
+                                    <a class="nav-link" href="#">Estatuto</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">
@@ -118,9 +119,8 @@
                                     Fale Conosco
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a class="nav-link" href="#">Link 1</a>
-                                    <a class="nav-link" href="#">Link 2</a>
-                                    <a class="nav-link" href="#">Link 3</a>
+                                    <a class="nav-link" href="#">Contato</a>
+                                    <a class="nav-link" href="#">Chat</a>
                                 </div>
                             </li>
                             
