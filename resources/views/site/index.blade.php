@@ -3,32 +3,36 @@
 @section('conteudo')
 
 <section class="container-fluid">
-
+@inject('noticias', 'sinasefe\Noticias')
+<?php $not = $noticias->where('categoria','noticia')->orderby('cod','desc')->take(10)->get(); ?>
     <div class="row">
         <div class="col-sm-7">
-            <div id="demo" class="carousel slide" data-ride="carousel">
+            <div id="demo" class="carousel slide" data-ride="carousel" >
 
                 <!-- Indicators -->
                 <ul class="carousel-indicators" style="bottom: 25px;">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
+                    @for($i=0; $i < count($not) ; $i++)                       
+                   
+                    <li data-target="#demo" data-slide-to="{{$i}}" @if($i == 0)class="active"@endif></li>
+                    @endfor
                 </ul>
 
                 <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active text-center">
-                        <img src="imagens/slide/plena.png" alt="Los Angeles" width="100%" height="100%">
-                        <p style="background-color: darkred; color: white">LEGENDA</p>
+                <div class="carousel-inner" >
+                    <?php $j = 0 ?>
+                    @foreach($not as $noticia)
+                    <?php $j++; ?>
+                   
+                    <div class="carousel-item  text-center   @if($j == 1) active @endif" style="height: 100%">  
+
+                        <img src="arquivos/{{$noticia->imagem}}" alt="Los Angeles" style="width: 100%; height:300px;">                 
+                       
+                        <p style="background-color: darkred; color: white">{{$noticia->legenda}}</p> 
                     </div>
-                    <div class="carousel-item text-center">
-                        <img src="imagens/slide/plena.png" alt="Chicago" width="100%" height="100%">
-                        <p style="background-color: darkred; color: white">LEGENDA</p>
-                    </div>
-                    <div class="carousel-item text-center">
-                        <img src="imagens/slide/plena.png" alt="New York" width="100%" height="100%">
-                        <p style="background-color: darkred; color: white">LEGENDA</p>
-                    </div>
+                    
+                   
+
+                    @endforeach
                 </div>
 
                 <!-- Left and right controls -->
