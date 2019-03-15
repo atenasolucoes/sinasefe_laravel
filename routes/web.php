@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/noticias', function () {
     return view('site.noticias');
 });
+
+Route::get('/noticia-pagina', function () {
+    return view('site.noticia_pagina');
+});

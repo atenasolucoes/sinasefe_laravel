@@ -15,11 +15,13 @@
             
             <div class="row">           
 
-                <div class="col-sm-4" style=" width: 100%; height: 200px;margin-top: 5px; background-image: url('arquivos/{{$noticia->imagem}}'); background-size: cover;"></div>
+                <div class="col-sm-4" style=" width: 100%; height: 200px;margin-top: 5px; background-image: url('arquivos/{{$noticia->imagem}}'); background-size: cover; background-position: center;"></div>
 
                 <div class="col-sm-8" style="padding:10px; text-align: justify; position: relative; ">
-                    <h4>{{$noticia->titulo}}</h4>
-                <p  style="background-color: darkred; color: white; padding: 1px; text-align: center; position: absolute; bottom: 0px; right: 10px;">Leia Mais</p>
+                  <a style=" color: darkred;" href="noticia-pagina?id={{$noticia->cod}}">
+                    <h5 >{{$noticia->titulo}}</h5>
+                    <p>É aqui que vai ser escrito o olho da noticia É aqui que vai ser escrito o olho da noticia É aqui que vai ser escrito o olho da noticia</p>
+                </a>
             </div>
 
 

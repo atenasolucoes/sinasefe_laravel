@@ -6,7 +6,7 @@
 @inject('noticias', 'sinasefe\Noticias')
 <?php $not = $noticias->where('categoria','noticia')->orderby('cod','desc')->take(10)->get(); ?>
     <div class="row">
-        <div class="col-sm-7">
+        <div class="col-sm-6">
             <div id="demo" class="carousel slide" data-ride="carousel" >
 
                 <!-- Indicators -->
@@ -25,7 +25,7 @@
                    
                     <div class="carousel-item  text-center   @if($j == 1) active @endif" style="height: 100%">  
 
-                        <img src="arquivos/{{$noticia->imagem}}" alt="Los Angeles" style="width: 100%; height:300px;">                 
+                        <img src="arquivos/{{$noticia->imagem}}" alt="Los Angeles" style="width: 100%;">                 
                        
                         <p style="background-color: darkred; color: white">{{$noticia->legenda}}</p> 
                     </div>
@@ -54,7 +54,7 @@
         }
     </style>
 
-    <div class="col-sm-5 container-fluid" >
+    <div class="col-sm-6 container-fluid" >
         <div class="row" style="padding: 0px;">
             <div class="col text-center" >
                 <img class="minibanner" src="imagens/assessoriajuridica.jpg" style="width: 100%; max-width: 100%;">
