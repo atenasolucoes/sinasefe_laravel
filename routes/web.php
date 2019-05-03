@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,4 +22,9 @@ Route::get('/noticias', function () {
 
 Route::get('/noticia-pagina', function () {
     return view('site.noticia_pagina');
+});
+
+Route::get('/diretoria', 'SiteController@diretoria');
+Route::get('/quemsomos', function () {
+    return view('site.quemsomos');
 });

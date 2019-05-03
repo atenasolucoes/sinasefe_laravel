@@ -25,7 +25,7 @@
                    
                     <div class="carousel-item  text-center   @if($j == 1) active @endif" style="height: 100%">  
 
-                        <a href="noticia-pagina?id={{$noticia->cod}}"><img src="arquivos/{{$noticia->imagem}}" alt="Los Angeles" style="width: 100%;"> </a>                
+                        <a href="noticia-pagina?id={{$noticia->cod}}"><img src="arquivos/{{$noticia->imagem}}" alt="Los Angeles" style="width: 100%; height:340px;"> </a>                
                        
                         <p style="background-color: darkred; color: white"><a href="noticia-pagina?id={{$noticia->cod}}" style="text-decoration: none; color: white;">{{$noticia->legenda}}</a></p> 
                     </div>
